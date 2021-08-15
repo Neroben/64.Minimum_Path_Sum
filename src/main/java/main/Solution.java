@@ -1,3 +1,5 @@
+package main;
+
 public class Solution {
 
     private Solution() {
@@ -174,6 +176,7 @@ public class Solution {
 
         @Override
         public VectorSteps clone() throws CloneNotSupportedException {
+            //I understand why sonar swears, but in this case everything works correctly
             return  (VectorSteps) super.clone();
         }
     }

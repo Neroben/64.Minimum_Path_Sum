@@ -1,3 +1,5 @@
+import main.Solution;
+
 class SolutionTest {
 
     @org.junit.jupiter.api.Test
